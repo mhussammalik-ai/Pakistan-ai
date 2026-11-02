@@ -1,0 +1,17 @@
+{
+  "name": "pakistanai",
+  "version": "1.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "groq-sdk": "^1.6.0",
+    "multer": "^2.4.0"
+  },
+  "license": "ISC"
+}
